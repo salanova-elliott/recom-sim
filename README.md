@@ -1,18 +1,18 @@
-#'recom\_sim': A hybrid simulation tool
+# 'recom\_sim': A hybrid simulation tool
 
-##Uses
+## Uses
 
 'recom\_sim' is a tool based on Nielsen et al.'s 'HYBRIDLAB' that simulates hybrids from the genetic data of two reference populations using allele frequencies. It allows for faster simulations, significantly more markers, and the creation of common introgression classes (B1, B2, F2) in one step. While mainly geared towards SNP data, any biallelic data in 'GENEPOP' format can be used.
 
-###Example use
+### Example use
 
 '''python recom\_sim.py input\_file.txt 1 --num-offs 1000 --out output\_file.txt'''
 
-##Input file
+## Input file
 
 Similar to 'HYBRIDLAB', 'recom\_sim' uses the 'GENEPOP' format as input. Any variation of comma or newline separated loci, three or two digit alleles, and tab or space separated data is accepted. Ensure that only two populations are present in the file.
 
-##Options
+## Options
 '''
 Usage: recom\_sim [OPTIONS]
 
@@ -28,7 +28,7 @@ Optional
   --out      TEXT     output file name (def = 'out')
   '''
 
-###Introgression level
+### Introgression level
 
 The positional argument 'introgression' signifies the generational level to simulate.
 
@@ -38,4 +38,5 @@ The positional argument 'introgression' signifies the generational level to simu
 
 Other introgression classes can be simulated by editing the output and feeding it back into the program (e.g. inputing two 'populations' of F2 with an introgression level of 1 to get F3)
 
-##References
+## References
+
