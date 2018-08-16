@@ -22,8 +22,8 @@ Positional
 
 Optional
   --num_offs INT      number of offspring to simulation (def = 100)
-  --p1name   TEXT     name for pop1, used to differentiate backcrosses (def = POP1)
-  --p2name   TEXT     name for pop2, used to differentiate backcrosses (def = POP2)
+  --p1name   TEXT     name for pop1, used to differentiate backcrosses (def = 'POP1')
+  --p2name   TEXT     name for pop2, used to differentiate backcrosses (def = 'POP2')
   --exclude           excludes reference populations from
   --out      TEXT     output file name (def = 'out')
   ```
