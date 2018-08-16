@@ -39,4 +39,4 @@ The positional argument 'introgression' signifies the generational level to simu
 Other introgression classes can be simulated by editing the output and feeding it back into the program (e.g. inputing two 'populations' of F2 with an introgression level of 1 to get F3)
 
 ## References
-Nielsen, E. E., L. A. Bach and P. Kotlicki (2006). "HYBRIDLAB (version 1.0): a program for generating simulated hybrids from population samples." Molecular Ecology Notes 6(4): 971-973
+Nielsen, E. E., L. A. Bach and P. Kotlicki (2006). "HYBRIDLAB (version 1.0): a program for generating simulated hybrids from population samples." Molecular Ecology Notes. 6(4): 971-973
