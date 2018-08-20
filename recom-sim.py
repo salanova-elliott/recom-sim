@@ -12,8 +12,6 @@ parser.add_argument("--exclude", action="store_true", help="exclude parentals fr
 parser.add_argument("--out", type=str, default="out", help="name of output file (def = out.txt)")
 args = parser.parse_args()
 
-file_object = open(args.import_file)
-
 #Parses genepop file collecting loci, samples, and data
 def read_genepop(genepop_file):
 
@@ -36,7 +34,7 @@ def read_genepop(genepop_file):
 
 	#Main loop
 	for line in genepop_file:
-		#print(line)
+
 		pop_search = re.search(pop_catch, line)
 		sample_search = re.search(sample_catch, line)
 
@@ -109,7 +107,7 @@ def build_matrix(raw_alleles, locus_list):
 
 #Helper for build_matrix
 def allele_check(exam, allele_a, allele_b, count_a, count_b):
-	#print("Allele_check: " + exam + " " + allele_a + " " + allele_b + " " + str(count_a) + " " + str(count_b))
+
 	if exam == allele_a:
 		count_a += 1
 		return allele_a, allele_b, count_a, count_b
@@ -167,7 +165,7 @@ def allele_select(pop_freq, j):
 #Output
 def output_file(loc_list, pop1_raw, pop2_raw, pop1_names, pop2_names, f1_off):
 	file_out = open(args.out + ".txt", "w")
-	file_out.write("Simulated with recom-sim: salanova-elliott\n")
+	file_out.write("Simulated with recom-sim: https://github.com/salanova-elliott/recom-sim\n")
 
 	for name in loc_list:
 		file_out.write(name + "\n")
@@ -209,6 +207,9 @@ def output_file(loc_list, pop1_raw, pop2_raw, pop1_names, pop2_names, f1_off):
 			for locus in int_off[i][j]:
 				file_out.write(locus + " ")
 			file_out.write("\n")
+
+#Execution
+file_object = open(args.import_file)
 
 loc_list, pop1_raw, pop2_raw, pop1_names, pop2_names = read_genepop(file_object)
 pop1_freq = build_matrix(pop1_raw, loc_list)
