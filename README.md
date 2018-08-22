@@ -21,7 +21,7 @@ Positional
   introgression       choice of {1,2,3}
 
 Optional
-  --num-offs INT      number of offspring to simulation (def = 100)
+  --num-offs INT      number of offspring to simulate (def = 100)
   --p1name   TEXT     name for pop1, used to differentiate backcrosses (def = 'POP1')
   --p2name   TEXT     name for pop2, used to differentiate backcrosses (def = 'POP2')
   --exclude           excludes reference populations from output file
