@@ -222,9 +222,9 @@ int_off.append(offspring_gen(pop1_freq, pop2_freq))
 if args.introgress == 2 or args.introgress == 3:
 	f1_freq = build_matrix(int_off[1], loc_list)
 
-	int_off.append("B1" + args.p1name + "_")
+	int_off.append("B2" + args.p1name + "_")
 	int_off.append(offspring_gen(pop1_freq, f1_freq))
-	int_off.append("B1" + args.p2name + "_")
+	int_off.append("B2" + args.p2name + "_")
 	int_off.append(offspring_gen(pop2_freq, f1_freq))
 
 if args.introgress == 3:
@@ -233,9 +233,9 @@ if args.introgress == 3:
 
 	int_off.append("F2HYB_")
 	int_off.append(offspring_gen(f1_freq, f1_freq))
-	int_off.append("B2" + args.p1name + "_")
+	int_off.append("B3" + args.p1name + "_")
 	int_off.append(offspring_gen(pop1_freq, b1pop1_freq))
-	int_off.append("B2" + args.p2name + "_")
+	int_off.append("B3" + args.p2name + "_")
 	int_off.append(offspring_gen(pop2_freq, b1pop2_freq))
 
 output_file(loc_list, pop1_raw, pop2_raw, pop1_names, pop2_names, int_off)
