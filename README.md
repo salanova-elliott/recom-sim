@@ -37,16 +37,16 @@ The positional argument 'introgression' signifies the generational level to simu
 3. **F1**, **F2**, **B2POP1**, **B2POP2**, **B3POP1**, **B3POP2** (B2POP1 x POP1, B2POP2 x POP2)
 
 ```
-0    R E F P O P 1   R E F P O P 2
-      |    |    \    /    |    |
-      |    |     \  /     |    |
-1     |    |     F1HYB    |    |
-      |    |    / | | \   |    |
-      |    |   /  | |  \  |    |
-2     |  B2POP1  F2HYB  B2POP2 |
-      |   /                \   |
-      |  /                  \  |
-3    B3POP1                B3POP2
+        R E F P O P 1   R E F P O P 2
+         |    |    \    /    |    |
+         |    |     \  /     |    |
+Gen1     |    |     F1HYB    |    |
+         |    |    / | | \   |    |
+         |    |   /  | |  \  |    |
+Gen2     |  B2POP1  F2HYB  B2POP2 |
+         |   /                \   |
+         |  /                  \  |
+Gen3    B3POP1                B3POP2
 ```
 
 Other introgression classes can be simulated by editing the output and feeding it back into the program (e.g. inputing two 'populations' of F2 with an introgression level of 1 to get F3)
