@@ -2,7 +2,7 @@
 
 ## Uses
 
-`recom-sim` is a tool based on Nielsen et al.'s `HYBRIDLAB` for simulating hybrids from the genetic data of two reference populations using allele frequencies. `recom-sim` allows for faster simulations, the inclusion of significantly more markers, and the creation of common introgression classes (B1, B2, F2) in one step. While mainly geared towards SNP data, any biallelic data in `GENEPOP` format can be used.
+`recom-sim` is a tool based on Nielsen et al.'s `HYBRIDLAB` for simulating hybrids from the genetic data of two reference populations using allele frequencies. `recom-sim` allows for faster simulations, the inclusion of significantly more markers, and the creation of common introgression classes (F2, B2, B3) in one step. While mainly geared towards SNP data, any biallelic data in `GENEPOP` format can be used.
 
 ### Example use
 
