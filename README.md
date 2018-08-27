@@ -33,8 +33,8 @@ Optional
 The positional argument 'introgression' signifies the generational level to simulate.
 
 1. Only **F1** hybrids
-2. **F1**, **F2**, **B1POP1**, **B1POP2** (backcrosses to both reference populations: F1 x POP1, F1 x POP2)
-3. **F1**, **F2**, **B1POP1**, **B1POP2**, **B2POP1**, **B2POP2** (B1POP1 x POP1, B1POP2 x POP2)
+2. **F1**, **F2**, **B2POP1**, **B2POP2** (backcrosses to both reference populations: F1 x POP1, F1 x POP2)
+3. **F1**, **F2**, **B2POP1**, **B2POP2**, **B3POP1**, **B3POP2** (B2POP1 x POP1, B2POP2 x POP2)
 
 Other introgression classes can be simulated by editing the output and feeding it back into the program (e.g. inputing two 'populations' of F2 with an introgression level of 1 to get F3)
 
