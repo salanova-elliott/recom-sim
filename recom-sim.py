@@ -1,5 +1,9 @@
 from __future__ import print_function
-import argparse, random, re, math, sys
+import argparse
+import random
+import re
+import math
+import sys
 
 #Arguments
 parser = argparse.ArgumentParser()
