@@ -1,5 +1,12 @@
 # `recom-sim`: A hybrid simulation tool
 
+If you use this tool, please cite:
+
+Elliott, Lucas, Russello, Michael. 2018. SNP panels for differentiating advanced-generation hybrid classes in recently diverged stocks: A sensitivity analysis to inform monitoring of sockeye salmon re-stocking programs. Fisheries Research 208: 339-345. 
+https://doi.org/10.1016/j.fishres.2018.09.001
+
+Thank you!
+
 ## Uses
 
 `recom-sim` is a tool based on Nielsen et al.'s `HYBRIDLAB` for simulating hybrids from the genetic data of two reference populations using allele frequencies. `recom-sim` allows for faster simulations, the inclusion of significantly more markers, and the creation of common introgression classes (F2, B2, B3) in one step. While mainly geared towards SNP data, any biallelic data in `GENEPOP` format can be used.
